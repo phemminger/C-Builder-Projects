@@ -1,0 +1,4 @@
+# exclude backup/caching folders
+__astcache/
+__history/
+__recoverygit comm/

@@ -75,7 +75,12 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 	E[6] =  1;
 	E[7] = 1;
 
-    Label1->Text = UnicodeString(2 % 4);
+	Label1->Text = UnicodeString(2 % 4);
+
+	std::string mystrings[] = {"asd","fgh","jkl"};
+//	Label1-> = (UnicodeString)mystrings[0];
+//	Label1->Text = (UnicodeString)mystrings[1];
+//	Label1->Text = (UnicodeString)mystrings[2];
 
 //	solution(A, Label1);
 //	solution(B, Label2);
